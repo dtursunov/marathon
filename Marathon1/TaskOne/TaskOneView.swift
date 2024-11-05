@@ -1,6 +1,6 @@
 import UIKit
 
-fileprivate extension ViewController {
+fileprivate extension TaskOneView {
     enum Constants {
         // Square
         static let squareSize: CGFloat = 100
@@ -14,7 +14,7 @@ fileprivate extension ViewController {
     }
 }
 
-final class ViewController: UIViewController {
+final class TaskOneView: UIViewController {
     
     private let squareView = UIView()
     private let shadowView = UIView()
